@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="20.158" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Testing\API_Testing\RestAssured_Automation_API_Testing\Automation\Opencart_RestAssured_Framework\target\test-classes;D:\Testing\API_Testing\RestAssured_Automation_API_Testing\Automation\Opencart_RestAssured_Framework\target\classes;C:\Users\Vishv\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\Vishv\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Vishv\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Vishv\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Vishv\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Vishv\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Vishv\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Vishv\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Vishv\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Vishv\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\Vishv\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\Vishv\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Vishv\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\Vishv\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\Vishv\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Vishv\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Vishv\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Vishv\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Vishv\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Vishv\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\Vishv\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\Vishv\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\Vishv\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Vishv\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Vishv\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Vishv\.m2\repository\io\rest-assured\json-schema-validator\5.1.1\json-schema-validator-5.1.1.jar;C:\Users\Vishv\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Vishv\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\Vishv\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Vishv\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Vishv\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Vishv\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Vishv\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Vishv\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Vishv\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Vishv\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Vishv\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Vishv\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Vishv\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Vishv\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Vishv\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Vishv\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Vishv\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Vishv\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Vishv\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Vishv\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Vishv\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Vishv\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Vishv\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Vishv\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Vishv\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Vishv\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Vishv\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Vishv\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Vishv\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\Vishv\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Vishv\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Vishv\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Vishv\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Vishv\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Vishv\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\Vishv\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\Vishv\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\Vishv\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Vishv\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Vishv\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\Vishv\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\Vishv\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Vishv\AppData\Local\Temp\surefire18288540696990010765\surefirebooter-20241218165325804_3.jar C:\Users\Vishv\AppData\Local\Temp\surefire18288540696990010765 2024-12-18T16-53-25_606-jvmRun1 surefire-20241218165325804_1tmp surefire_0-20241218165325804_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Testing\API_Testing\RestAssured_Automation_API_Testing\Automation\Opencart_RestAssured_Framework\target\test-classes;D:\Testing\API_Testing\RestAssured_Automation_API_Testing\Automation\Opencart_RestAssured_Framework\target\classes;C:\Users\Vishv\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\Vishv\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Vishv\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Vishv\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Vishv\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Vishv\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Vishv\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Vishv\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Vishv\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Vishv\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\Vishv\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\Vishv\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Vishv\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\Vishv\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\Vishv\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Vishv\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Vishv\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Vishv\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Vishv\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Vishv\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\Vishv\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\Vishv\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\Vishv\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Vishv\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Vishv\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Vishv\.m2\repository\io\rest-assured\json-schema-validator\5.1.1\json-schema-validator-5.1.1.jar;C:\Users\Vishv\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Vishv\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\Vishv\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Vishv\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Vishv\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Vishv\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Vishv\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Vishv\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Vishv\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Vishv\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Vishv\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Vishv\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Vishv\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Vishv\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Vishv\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Vishv\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Vishv\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Vishv\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Vishv\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Vishv\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Vishv\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Vishv\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Vishv\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Vishv\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Vishv\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Vishv\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Vishv\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Vishv\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Vishv\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\Vishv\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Vishv\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Vishv\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Vishv\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Vishv\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Vishv\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\Vishv\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\Vishv\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\Vishv\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Vishv\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Vishv\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\Vishv\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\Vishv\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Vishv"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Testing\API_Testing\RestAssured_Automation_API_Testing\Automation\Opencart_RestAssured_Framework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Vishv\AppData\Local\Temp\surefire18288540696990010765\surefirebooter-20241218165325804_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
+    <property name="user.name" value="Vishv"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Vishv\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Vishv\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.5"/>
+    <property name="user.dir" value="D:\Testing\API_Testing\RestAssured_Automation_API_Testing\Automation\Opencart_RestAssured_Framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\apache-maven-3.9.9\bin;C:\Program Files\HP\HP One Agent;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\node_modules;C:\Program Files\nodejs\;C:\Users\Vishv\AppData\Local\Microsoft\WindowsApps;%IntelliJ IDEA Community Edition%;C:\Program Files\Java\jdk-21\bin;C:\Users\Vishv\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.5+9-LTS-239"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testCreateToken" classname="api.Test.TC001_CartTest" time="3.353">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 18 Dec 2024 11:23:30 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Set-Cookie: OCSESSID=25a988827e4430e578e159b2c1; path=/
+Set-Cookie: language=en-gb; expires=Fri, 17-Jan-2025 11:23:30 GMT; Max-Age=2592000; path=/; domain=192.168.125.231
+Set-Cookie: currency=USD; expires=Fri, 17-Jan-2025 11:23:30 GMT; Max-Age=2592000; path=/; domain=192.168.125.231
+Content-Length: 97
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+
+{
+    "success": "Success: API session successfully started!",
+    "api_token": "3df0e50cfe51c266f4ff332ed3"
+}
+3df0e50cfe51c266f4ff332ed3
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testAddToCart" classname="api.Test.TC001_CartTest" time="0.119">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 18 Dec 2024 11:23:31 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Set-Cookie: language=en-gb; expires=Fri, 17-Jan-2025 11:23:31 GMT; Max-Age=2592000; path=/; domain=192.168.125.231
+Set-Cookie: currency=USD; expires=Fri, 17-Jan-2025 11:23:31 GMT; Max-Age=2592000; path=/; domain=192.168.125.231
+Content-Length: 60
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+
+{
+    "success": "Success: You have modified your shopping cart!"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetCart" classname="api.Test.TC001_CartTest" time="0.21">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 18 Dec 2024 11:23:31 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Set-Cookie: language=en-gb; expires=Fri, 17-Jan-2025 11:23:31 GMT; Max-Age=2592000; path=/; domain=192.168.125.231
+Set-Cookie: currency=USD; expires=Fri, 17-Jan-2025 11:23:31 GMT; Max-Age=2592000; path=/; domain=192.168.125.231
+Content-Length: 368
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+
+{
+    "products": [
+        {
+            "cart_id": "33",
+            "product_id": "40",
+            "name": "iPhone",
+            "model": "product 11",
+            "option": [
+                
+            ],
+            "quantity": "3",
+            "stock": true,
+            "shipping": "1",
+            "price": "$123.20",
+            "total": "$369.60",
+            "reward": 0
+        }
+    ],
+    "vouchers": [
+        
+    ],
+    "totals": [
+        {
+            "title": "Sub-Total",
+            "text": "$303.00"
+        },
+        {
+            "title": "Eco Tax (-2.00)",
+            "text": "$6.00"
+        },
+        {
+            "title": "VAT (20%)",
+            "text": "$60.60"
+        },
+        {
+            "title": "Total",
+            "text": "$369.60"
+        }
+    ]
+}
+33
+]]></system-out>
+  </testcase>
+  <testcase name="testEditCart" classname="api.Test.TC001_CartTest" time="0.081">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 18 Dec 2024 11:23:31 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Set-Cookie: language=en-gb; expires=Fri, 17-Jan-2025 11:23:31 GMT; Max-Age=2592000; path=/; domain=192.168.125.231
+Set-Cookie: currency=USD; expires=Fri, 17-Jan-2025 11:23:31 GMT; Max-Age=2592000; path=/; domain=192.168.125.231
+Content-Length: 193
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+
+<b>Warning</b>: Undefined array key "key" in <b>C:\xampp\htdocs\opencart\upload\catalog\controller\api\cart.php</b> on line <b>84</b>{"success":"Success: You have modified your shopping cart!"}
+]]></system-out>
+  </testcase>
+  <testcase name="testRemoveCart" classname="api.Test.TC001_CartTest" time="0.093"/>
+  <testcase name="GorestTest[185ad18620cd99534c1ccd4d212e3cb4936241560af682f8eb219bebdeef4d80, Olivia GreenA, olivia.greenA@example.com, Female, active](1)" classname="api.Test.TC002_GorestTest" time="5.344">
+    <system-out><![CDATA[7590696
+HTTP/1.1 200 OK
+Date: Wed, 18 Dec 2024 11:23:36 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"3f5725d5b54692d4fe997e1473690666"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: e9e654db-9764-4301-b06d-381a35145cba
+x-runtime: 0.062309
+x-xss-protection: 0
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=13sjkf44hguLC1HZeHFypJxQ9bZpFxEMmlSiQaP3nEBOW4DSU7r2k%2FEbiMlUCRcedSv%2Bkf7Eky0cWE4bAlYUjNH8v9HejwIq3gO58dpW%2Fhn3pvEwp8VfJPjXF%2FJ%2FDl0%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8f3ec81eae2bdc96-FRA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=246521&min_rtt=239839&rtt_var=103305&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2693&recv_bytes=852&delivery_rate=13092&cwnd=252&unsent_bytes=0&cid=2df3eb7a6437c06c&ts=546&x=0"
+
+{
+    "id": 7590696,
+    "name": "Olivia GreenA",
+    "email": "olivia.greenA@example.com",
+    "gender": "female",
+    "status": "active"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="GorestTest[185ad18620cd99534c1ccd4d212e3cb4936241560af682f8eb219bebdeef4d80, Noah Carter, noah.carter@example.com, Male, inactive](2)" classname="api.Test.TC002_GorestTest" time="3.82">
+    <system-out><![CDATA[7590697
+HTTP/1.1 200 OK
+Date: Wed, 18 Dec 2024 11:23:40 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"b1c26c5977fdeecfe709b39b0dbf49ca"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 5cd437d3-3439-4583-a4d4-7c3654146c64
+x-runtime: 0.077738
+x-xss-protection: 0
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=lWhnQIUxniiTgRGghFsEedvQneoX3aa7PPJSmTGcuuivS7ztDgX91Yu4JC4bj9IpmrDp1u6oYiKxnUIdiExeM8LPks7lgngYCOuGEy5ATZOjPK8ThjBG0ExgAhRtUao%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8f3ec8379b6d696a-FRA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=263459&min_rtt=259585&rtt_var=105094&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2694&recv_bytes=852&delivery_rate=13214&cwnd=252&unsent_bytes=0&cid=7768742b5006f9de&ts=843&x=0"
+
+{
+    "id": 7590697,
+    "name": "Noah Carter",
+    "email": "noah.carter@example.com",
+    "gender": "male",
+    "status": "inactive"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="GorestTest[185ad18620cd99534c1ccd4d212e3cb4936241560af682f8eb219bebdeef4d80, Emma Thompson, emma.thompson@example.com, Female, active](3)" classname="api.Test.TC002_GorestTest" time="3.988">
+    <system-out><![CDATA[7590698
+HTTP/1.1 200 OK
+Date: Wed, 18 Dec 2024 11:23:44 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"206fb8ed8d62e1e1a6c5e0a89c65aaeb"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: c58053b8-2cb6-41af-bab4-413915e18393
+x-runtime: 0.141640
+x-xss-protection: 0
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=cD9TnMsYOcWp5B88z1rSZ6GqvYybXWCtJ9zfs9Ph6yXYSfikLaKD%2FCNWOppWf6P5j%2FyeBuPmCGnbICwFjiip%2BZf8aUYsYCYoWUsL68k8BXtju%2BiZgI09phxo2Q7dO64%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8f3ec84fd908d298-FRA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=301304&min_rtt=300151&rtt_var=86589&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2693&recv_bytes=852&delivery_rate=12488&cwnd=252&unsent_bytes=0&cid=db88d8f2053a8e5a&ts=623&x=0"
+
+{
+    "id": 7590698,
+    "name": "Emma Thompson",
+    "email": "emma.thompson@example.com",
+    "gender": "female",
+    "status": "active"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

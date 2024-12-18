@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-18T16:45:03 IST" name="Suite" finished-at="2024-12-18T16:45:22 IST" duration-ms="18764">
+    <groups>
+    </groups>
+    <test started-at="2024-12-18T16:45:03 IST" name="Test" finished-at="2024-12-18T16:45:22 IST" duration-ms="18764">
+      <class name="api.Test.TC002_GorestTest">
+        <test-method signature="GorestTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.Test.TC002_GorestTest@3b0fe47a]" started-at="2024-12-18T16:45:09 IST" name="GorestTest" data-provider="valueandget" finished-at="2024-12-18T16:45:14 IST" duration-ms="4863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[185ad18620cd99534c1ccd4d212e3cb4936241560af682f8eb219bebdeef4d80]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Olivia GreenA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[olivia.greenA@example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GorestTest -->
+        <test-method signature="GorestTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.Test.TC002_GorestTest@3b0fe47a]" started-at="2024-12-18T16:45:14 IST" name="GorestTest" data-provider="valueandget" finished-at="2024-12-18T16:45:18 IST" duration-ms="3990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[185ad18620cd99534c1ccd4d212e3cb4936241560af682f8eb219bebdeef4d80]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Noah Carter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[noah.carter@example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GorestTest -->
+        <test-method signature="GorestTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.Test.TC002_GorestTest@3b0fe47a]" started-at="2024-12-18T16:45:18 IST" name="GorestTest" data-provider="valueandget" finished-at="2024-12-18T16:45:22 IST" duration-ms="3684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[185ad18620cd99534c1ccd4d212e3cb4936241560af682f8eb219bebdeef4d80]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Emma Thompson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emma.thompson@example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GorestTest -->
+      </class> <!-- api.Test.TC002_GorestTest -->
+      <class name="api.Test.TC001_CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.Test.TC001_CartTest@2af004b]" started-at="2024-12-18T16:45:04 IST" name="setUp" finished-at="2024-12-18T16:45:04 IST" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateToken()[pri:1, instance:api.Test.TC001_CartTest@2af004b]" started-at="2024-12-18T16:45:04 IST" name="testCreateToken" finished-at="2024-12-18T16:45:07 IST" duration-ms="2862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateToken -->
+        <test-method signature="testAddToCart()[pri:2, instance:api.Test.TC001_CartTest@2af004b]" started-at="2024-12-18T16:45:07 IST" name="testAddToCart" finished-at="2024-12-18T16:45:07 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method signature="testGetCart()[pri:3, instance:api.Test.TC001_CartTest@2af004b]" started-at="2024-12-18T16:45:07 IST" name="testGetCart" finished-at="2024-12-18T16:45:08 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCart -->
+        <test-method signature="testEditCart()[pri:4, instance:api.Test.TC001_CartTest@2af004b]" started-at="2024-12-18T16:45:08 IST" name="testEditCart" finished-at="2024-12-18T16:45:08 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditCart -->
+        <test-method signature="testRemoveCart()[pri:5, instance:api.Test.TC001_CartTest@2af004b]" started-at="2024-12-18T16:45:08 IST" name="testRemoveCart" finished-at="2024-12-18T16:45:08 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveCart -->
+      </class> <!-- api.Test.TC001_CartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
